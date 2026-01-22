@@ -4,7 +4,7 @@ MyMealMate is a React Native mobile application designed to help users understan
 
 This project was built as a learning project to practice React Native, state management, persistent storage, and basic health calculations (BMI, BMR, maintenance calories).
 
-#✨ Features
+# ✨ Features
 
 *🔐 User authentication*
 
@@ -44,7 +44,7 @@ Data remains after closing the app
 
 Visual representation of calories eaten vs daily goal
 
-#🛠 Tech Stack
+# 🛠 Tech Stack
 
 React Native
 
@@ -54,53 +54,67 @@ AsyncStorage (local persistence)
 
 react-native-svg (circular progress ring)
 
-#📁 Project Structure
+# 📁 Project Structure
+
 App.js
+
 components/
+
  ├─ WelcomePage.js
+ 
  ├─ RegisterPage.js
+ 
  ├─ HomePage.js
+ 
  ├─ BMICalcPage.js
+ 
  ├─ MealSelectionPage.js
+ 
  ├─ MealSummaryPage.js
+ 
  ├─ EditProfilePage.js
+ 
  └─ CircleProgress.js
+ 
 assets/
  ├─ OatmealBanana.jpg
+ 
  ├─ ChickenSalad.jpg
+ 
  ├─ SalmonVeggie.jpg
+ 
  └─ ...
 
-#🧮 Health Calculations
+# 🧮 Health Calculations
 *BMI*
-BMI = weight / (height²)
+`BMI = weight / (height²)`
 
 *BMR (Mifflin–St Jeor)*
 
 Male:
 
-10 × weight + 6.25 × height − 5 × age + 5
+`10 × weight + 6.25 × height − 5 × age + 5`
 
 
 *Female*:
 
-10 × weight + 6.25 × height − 5 × age − 161
+`10 × weight + 6.25 × height − 5 × age − 161`
 
 *Maintenance Calories (TDEE)*
-TDEE = BMR × Activity Factor
+`TDEE = BMR × Activity Factor`
 
 
 *Activity factors:*
 
 Sedentary: 1.2
 
-Light: 1.375
+`Light: 1.375`
 
-Moderate: 1.55
+`Moderate: 1.55`
 
-Active: 1.725
+`Active: 1.725`
 
-**🚀 How to Run the Project**
+# 🚀 How to Run the Project
 
 *Clone the repository*
 
@@ -132,15 +146,17 @@ Component-based UI design
 
 Basic nutrition and health formulas
 
-#📌 Notes
+# 📌 Notes
 
 This app is for educational purposes only
 
 Health calculations are estimates and not medical advice
 
-#📬 Author
+# 📬 Author
 
 Developed by Yannick Van Heerden - [Yannick VHH](https://github.com/yannickvhh) - Email : yannick@van-heerden.com
+
 Engineering Student at ECE Paris - ING3
+
 📫 Feel free to connect with me on LinkedIn! <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="yannickvanheerden" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/yannickvanheerden?trk=profile-badge">Yannick V.</a></div>
               
