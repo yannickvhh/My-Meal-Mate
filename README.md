@@ -6,19 +6,19 @@ This project was built as a learning project to practice React Native, state man
 
 # ✨ Features
 
-*🔐 User authentication*
+**🔐 User authentication**
 
 Register & login system
 
 Credentials stored locally using AsyncStorage
 
-*👤 User profile*
+**👤 User profile**
 
 Edit personal information
 
 Automatically recalculates BMI & BMR
 
-*📊 Health calculations*
+**📊 Health calculations**
 
 BMI (Body Mass Index)
 
@@ -26,7 +26,7 @@ BMR (Basal Metabolic Rate)
 
 Maintenance calories (TDEE) based on activity level
 
-*🍽 Weekly meal planner*
+**🍽 Weekly meal planner**
 
 Plan 4 meals per day (Breakfast, Lunch, Dinner, Snack)
 
@@ -34,13 +34,13 @@ Plan for the entire week (Mon → Sun)
 
 Each meal includes calories and an image
 
-*🔄 Persistent storage*
+**🔄 Persistent storage**
 
 User profile, login, and weekly meal plan are saved locally
 
 Data remains after closing the app
 
-*🔵 Calorie progress ring*
+**🔵 Calorie progress ring**
 
 Visual representation of calories eaten vs daily goal
 
@@ -86,27 +86,27 @@ assets/
  └─ ...
 
 # 🧮 Health Calculations
-*BMI*
+**BMI**
 `BMI = weight / (height²)`
 
-*BMR (Mifflin–St Jeor)*
+**BMR (Mifflin–St Jeor)**
 
-Male:
+**Male:**
 
 `10 × weight + 6.25 × height − 5 × age + 5`
 
 
-*Female*:
+**Female:**
 
 `10 × weight + 6.25 × height − 5 × age − 161`
 
-*Maintenance Calories (TDEE)*
+**Maintenance Calories (TDEE)**
 `TDEE = BMR × Activity Factor`
 
 
-*Activity factors:*
+**Activity factors:**
 
-Sedentary: 1.2
+`Sedentary: 1.2`
 
 `Light: 1.375`
 
@@ -116,17 +116,17 @@ Sedentary: 1.2
 
 # 🚀 How to Run the Project
 
-*Clone the repository*
+**Clone the repository**
 
 ```git clone https://github.com/your-username/mymealmate.git```
 
 
-*Install dependencies*
+**Install dependencies**
 
 ```npm install```
 
 
-*Start the app*
+**Start the app**
 
 ```npx expo start```
 
