@@ -130,7 +130,7 @@ assets/
 
 ```npx expo start```
 
-#🎯 Learning Objectives
+# 🎯 Learning Objectives
 
 - This project helped me practice:
 
@@ -156,7 +156,7 @@ Health calculations are estimates and not medical advice
 
 Developed by Yannick Van Heerden - [Yannick VHH](https://github.com/yannickvhh) - Email : yannick@van-heerden.com
 
-Engineering Student at ECE Paris - ING3
+**Engineering Student at ECE Paris - ING3**
 
 📫 Feel free to connect with me on LinkedIn! <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="yannickvanheerden" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/yannickvanheerden?trk=profile-badge">Yannick V.</a></div>
               
